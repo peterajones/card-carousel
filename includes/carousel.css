@@ -1,0 +1,68 @@
+.my_carousel {
+    position: relative;
+    width: 760px;
+    background-color: #fff;
+    margin: 30px auto 20px auto;
+}
+.carousel_container {
+    height; 340px;
+    margin: 0;
+    margin-top: 140px;
+    /*background: url(../images/background.jpg) no-repeat 0px 0px;*/
+}
+.caption_container {
+    width: 435px;
+    margin: 0 0 0 184px;
+    padding: 0 0 0 20px;
+/*    border-left: 3px solid #713e1b;*/
+}
+.carousel_data {
+    display: none;
+}
+#carousel {
+    margin: 0 auto 0 auto;
+    width: 600px;
+    height: 300px;
+}
+#carousel img {
+    width: 300ps;
+    height: 225px;
+    cursor: pointer;;
+}
+#captions {
+    margin-top: 110px;
+    width: 352px;
+}
+.next_item {
+    position: absolute;
+    top: 130px;
+    left: -54px;
+    z-indez: 1001;
+    cursor: pointer;
+}
+.prev_item {
+    position: absolute;
+    top: 128px;
+    right: -50px;
+    z-index: 1002;
+    cursor: pointer;
+}
+.leaves {
+    position: absolute;
+    top: 270px;
+    left: 102px;
+    z-index: 1003;
+}
+#captions h2 {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+    color: #6d8824;
+}
+#captions p {
+    font-family: Arial;
+    font-size: 14px;
+    color: #444;
+    margin: 0px 0px 0px 3px;
+}
